@@ -23,6 +23,7 @@ class TestDict:
         dct.clear()
         assert dct == {}
 
+
     @pytest.mark.parametrize('numbers', [1,2,3])
     def test_value_is_exists(self, numbers):
         assert numbers in dict_one.values()

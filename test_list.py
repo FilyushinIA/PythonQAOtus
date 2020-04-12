@@ -27,5 +27,6 @@ class Test_List:
         assert list_four == ['a', 'c', 'f']
 
 # параметризированный с помощью фикстуры
+
     def test_pop(self, fixt_list):
         assert fixt_list.count('virus') == 0

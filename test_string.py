@@ -1,5 +1,6 @@
 import pytest
 
+
 str_empty = ''
 strg = 'abcdefg'
 

@@ -1,5 +1,6 @@
 import pytest
 
+
 a = set('abracadabra')
 b = set('alacazam')
 
@@ -21,3 +22,4 @@ class TestSet:
     @pytest.mark.parametrize('letters', 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя')
     def test_letters_in_a(self, letters):
         assert letters not in a
+
